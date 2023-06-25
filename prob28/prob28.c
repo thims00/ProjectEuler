@@ -46,15 +46,13 @@ sys	0m0.000
 unsigned long gridSize = 1001;
 
 unsigned long diagSum = 1;
-unsigned long curStep = 1;
 
 int main() {
   unsigned long i, x;
 
   for (i=2; i<=gridSize; i+=2) {
     for (x=0; x<4; x++) {
-      curStep += i;
-      diagSum += curStep;
+      diagSum += i;
     }
   }
 
