@@ -52,9 +52,8 @@ unsigned long curStep = 1;
 
 int main() {
   unsigned long i, x;
-  unsigned long iters = gridSize;
 
-  for (i=2; i<=iters; i+=2) {
+  for (i=2; i<=gridSize; i+=2) {
     for (x=0; x<4; x++) {
       curStep += i;
       diagSum += curStep;
