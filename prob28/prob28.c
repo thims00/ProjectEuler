@@ -44,7 +44,6 @@ sys	0m0.000
 */
 
 unsigned long gridSize = 1001;
-
 unsigned long diagSum = 1;
 
 int main() {
