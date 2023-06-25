@@ -48,8 +48,6 @@ unsigned long gridSize = 1001;
 unsigned long diagSum = 1;
 unsigned long curStep = 1;
 
-
-
 int main() {
   unsigned long i, x;
 
